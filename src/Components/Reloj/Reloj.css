@@ -1,0 +1,13 @@
+div {
+    text-align: center;
+}
+
+p {
+    font-size: 2rem;
+    color: black;
+    border: 3px solid rgb(212, 152, 152);
+    padding: 3rem;
+    border-radius: 15px;
+    background-color: rgb(220, 164, 164);
+}
+
