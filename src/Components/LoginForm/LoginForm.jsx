@@ -7,9 +7,9 @@ const initialUsers = [
 ];
 
 const LoginForm = () => {
-  const [username, setUsername] = useState(""); // Estado para el nombre de usuario
-  const [password, setPassword] = useState(""); // Estado para la contraseña
-  const [userExists, setUserExists] = useState(false); // Estado para verificar si el usuario existe
+  const [username, setUsername] = useState(""); 
+  const [password, setPassword] = useState(""); 
+  const [userExists, setUserExists] = useState(false); 
 
   useEffect(() => {
 
@@ -48,7 +48,7 @@ const LoginForm = () => {
           />
         </div>
       </form>
-      {/* Mostrar mensaje según si el usuario existe o no */}
+     
       {userExists ? (
         <p>{username}</p>
       ) : (
